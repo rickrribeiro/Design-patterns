@@ -99,6 +99,10 @@ abstractions.
 ## 3.2 Creational Patterns
 Creational patterns provide object creation mechanisms that
 increase flexibility and reuse of existing code.
+### | 3.2.1 Factory Method
+Factory Method is a creational design pattern that provides
+an interface for creating objects in a superclass, but allows
+subclasses to alter the type of objects that will be created.
 ## 3.3 Structural Patterns
 Structural patterns explain how to assemble objects and class-
 es into larger structures, while keeping the structures flexible
