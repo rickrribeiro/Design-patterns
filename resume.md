@@ -103,6 +103,12 @@ increase flexibility and reuse of existing code.
 Factory Method is a creational design pattern that provides
 an interface for creating objects in a superclass, but allows
 subclasses to alter the type of objects that will be created.
+
+### | 3.2.2 Abstract Factory
+Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
+
+### | 3.2.3 Builder
+Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
 ## 3.3 Structural Patterns
 Structural patterns explain how to assemble objects and class-
 es into larger structures, while keeping the structures flexible

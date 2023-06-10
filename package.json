@@ -11,7 +11,9 @@
     "ts-node": "^10.9.1"
   },
   "scripts": {
-    "start": "ts-node FactoryMethod/index.ts"
+    "start:FactoryMethod": "ts-node FactoryMethod/index.ts",
+    "start:AbstractFactory": "ts-node AbstractFactory/app.ts",
+    "start:Builder": "ts-node Builder/app.ts"
   },
   "author": "",
   "license": "ISC"
