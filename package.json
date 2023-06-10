@@ -1,0 +1,20 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "start:FactoryMethod": "ts-node FactoryMethod/index.ts",
+    "start:AbstractFactory": "ts-node AbstractFactory/app.ts",
+    "start:Builder": "ts-node Builder/app.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
