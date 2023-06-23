@@ -50,8 +50,8 @@ a” relationship (a car has an engine).
 
 <br>
 
-## 2.3 SOLID principles
-
+## 2.3 SOLID principles 
+(remember to do KISS, DRY, YAGNI)
 ### | 2.3.1  <b><span style="font-size:larger;color:red;">S</span></b>ingle Responsibility Principle
 A class should have just one reason to change. <br>
 Try to make every class responsible for a single part of the
@@ -109,6 +109,12 @@ Abstract Factory is a creational design pattern that lets you produce families o
 
 ### | 3.2.3 Builder
 Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+
+### | 3.2.4 Prototype
+Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
+
+### | 3.2.5 Singleton
+Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance
 ## 3.3 Structural Patterns
 Structural patterns explain how to assemble objects and class-
 es into larger structures, while keeping the structures flexible

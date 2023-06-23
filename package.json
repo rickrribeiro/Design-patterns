@@ -13,7 +13,9 @@
   "scripts": {
     "start:FactoryMethod": "ts-node FactoryMethod/index.ts",
     "start:AbstractFactory": "ts-node AbstractFactory/app.ts",
-    "start:Builder": "ts-node Builder/app.ts"
+    "start:Builder": "ts-node Builder/app.ts",
+    "start:Prototype": "ts-node Prototype/app.ts",
+    "start:Singleton": "ts-node Singleton/app.ts"
   },
   "author": "",
   "license": "ISC"
