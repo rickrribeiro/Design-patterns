@@ -115,10 +115,28 @@ Prototype is a creational design pattern that lets you copy existing objects wit
 
 ### | 3.2.5 Singleton
 Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance
+
+
+
 ## 3.3 Structural Patterns
 Structural patterns explain how to assemble objects and class-
 es into larger structures, while keeping the structures flexible
 and efficient.
+
+### | 3.3.1 Adapter
+Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+
+### | 3.3.2 Bridge
+Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+
+### | 3.3.3 Composite
+is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects
+
+### | 3.3.4 Decorator (Wrapper)
+Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+
+
+
 ## 3.4 Behavioral Patterns
 Behavioral patterns take care of effective communication and
 the assignment of responsibilities between objects.

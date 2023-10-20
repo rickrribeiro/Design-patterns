@@ -15,7 +15,11 @@
     "start:AbstractFactory": "ts-node AbstractFactory/app.ts",
     "start:Builder": "ts-node Builder/app.ts",
     "start:Prototype": "ts-node Prototype/app.ts",
-    "start:Singleton": "ts-node Singleton/app.ts"
+    "start:Singleton": "ts-node Singleton/app.ts",
+    "start:Adapter": "ts-node Adapter/app.ts",
+    "start:Bridge": "ts-node Bridge/app.ts",
+    "start:Composite": "ts-node Composite/app.ts",
+    "start:Decorator": "ts-node Decorator/app.ts"
   },
   "author": "",
   "license": "ISC"
