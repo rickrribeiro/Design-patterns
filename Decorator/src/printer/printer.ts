@@ -1,4 +1,4 @@
-import {OperationDecorator,AdditionDecorator,SubstractionDecorator, multiplier} from '../decorators'
+import {OperationDecorator,AdditionDecorator,SubstractionDecorator, multiplier, Operation} from '../decorators'
 
 export class Printer{
 
@@ -18,4 +18,10 @@ export class Printer{
         const operationDecorator = new OperationDecorator();
         return operationDecorator.calc(new SubstractionDecorator(), a, b);
     }
+
+    @Operation(AdditionDecorator)
+    operation(a,b){
+        
+    }
+
 }

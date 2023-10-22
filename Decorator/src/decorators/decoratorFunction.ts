@@ -17,3 +17,20 @@ export function multiplier(value: number){
         return descriptor;
     };
 }
+
+export function Operation( operation: any){
+    return function(target: any, key: string, descriptor: PropertyDescriptor) {
+        const originalMethod = descriptor.value;
+        // console.log(`target: ${JSON.stringify(target)}`)
+        // console.log(`key: ${key}`)
+        // console.log(`descriptor: ${JSON.stringify(descriptor)}`)
+        descriptor.value = function(...args: any[]) {
+            console.log(`args: ${JSON.stringify(args)}`)
+            const result = originalMethod.apply(this, args);
+            const operationO = new operation()
+            return operationO.calc(args[0], args[1])
+        };
+
+        return descriptor;
+    };
+}

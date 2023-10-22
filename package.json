@@ -19,7 +19,10 @@
     "start:Adapter": "ts-node Adapter/app.ts",
     "start:Bridge": "ts-node Bridge/app.ts",
     "start:Composite": "ts-node Composite/app.ts",
-    "start:Decorator": "ts-node Decorator/app.ts"
+    "start:Decorator": "ts-node Decorator/app.ts",
+    "start:Facade": "ts-node Facade/app.ts",
+    "start:Flyweight": "ts-node Flyweight/app.ts",
+    "start:Proxy": "ts-node Proxy/app.ts"
   },
   "author": "",
   "license": "ISC"

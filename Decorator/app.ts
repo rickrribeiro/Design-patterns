@@ -9,3 +9,6 @@ const b = printer.add(1,2)
 console.log(b)
 const c = printer.subtract(1,2)
 console.log(c)
+
+const d = printer.operation(25,25)
+console.log(d)

@@ -135,6 +135,25 @@ is a structural design pattern that lets you compose objects into tree structure
 ### | 3.3.4 Decorator (Wrapper)
 Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
 
+### | 3.3.5 Facade
+Facade is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes
+
+### | 3.3.6 FlyWeight
+Flyweight is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
+
+### | 3.3.6 Proxy
+Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## 3.4 Behavioral Patterns
