@@ -22,7 +22,11 @@
     "start:Decorator": "ts-node Decorator/app.ts",
     "start:Facade": "ts-node Facade/app.ts",
     "start:Flyweight": "ts-node Flyweight/app.ts",
-    "start:Proxy": "ts-node Proxy/app.ts"
+    "start:Proxy": "ts-node Proxy/app.ts",
+    "start:ChainOfResponsability": "ts-node ChainOfResponsability/app.ts",
+    "start:Command": "ts-node Command/app.ts",
+    "start:Iterator": "ts-node Iterator/app.ts",
+    "start:Mediator": "ts-node Mediator/app.ts"
   },
   "author": "",
   "license": "ISC"
