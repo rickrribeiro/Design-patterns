@@ -26,7 +26,13 @@
     "start:ChainOfResponsability": "ts-node ChainOfResponsability/app.ts",
     "start:Command": "ts-node Command/app.ts",
     "start:Iterator": "ts-node Iterator/app.ts",
-    "start:Mediator": "ts-node Mediator/app.ts"
+    "start:Mediator": "ts-node Mediator/app.ts",
+    "start:Memento": "ts-node Memento/app.ts",
+    "start:Observer":  "ts-node Observer/app.ts",
+    "start:State":  "ts-node State/app.ts",
+    "start:Strategy":  "ts-node Strategy/app.ts",
+    "start:Template Method":  "ts-node TemplateMethod/app.ts",
+    "start: Visitor":  "ts-node Visitor/app.ts"
   },
   "author": "",
   "license": "ISC"

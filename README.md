@@ -154,8 +154,7 @@ Chain of Responsibility is a behavioral design pattern that lets you pass reques
 
 ### | 3.4.2 Command
 Command is a behavioral design pattern that turns a request into a stand-alone object that contains all information about the request. This transformation lets you parameterize methods with different requests, delay or queue a request’s execution, and support undoable operations
--Use the Command pattern when you want to queue operations, schedule their execution, or execute them remotely. When you want to implement
-reversible operations
+- Use the Command pattern when you want to queue operations, schedule their execution, or execute them remotely. When you want to implement reversible operations
 
 ### | 3.4.3 Iterator
 Iterator is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
@@ -165,3 +164,14 @@ Mediator is a behavioral design pattern that lets you reduce
 chaotic dependencies between objects. The pattern restricts
 direct communications between the objects and forces them to
 collaborate only via a mediator object.
+
+### | 3.4.5 Memento
+Memento is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation
+### | 3.4.6 Observer
+Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+### | 3.4.7 State
+State is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class
+### | 3.4.8 Strategy
+Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable. Use the pattern when your class has a massive conditional operator that switches between different variants of the samealgorithm
+### | 3.4.9 Template Method
+### | 3.4.10 Visitor
