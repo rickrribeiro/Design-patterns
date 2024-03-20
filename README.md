@@ -174,4 +174,6 @@ State is a behavioral design pattern that lets an object alter its behavior when
 ### | 3.4.8 Strategy
 Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable. Use the pattern when your class has a massive conditional operator that switches between different variants of the samealgorithm
 ### | 3.4.9 Template Method
+Template Method is a behavioral design pattern that defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure
 ### | 3.4.10 Visitor
+Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
